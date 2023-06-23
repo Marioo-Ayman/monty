@@ -8,10 +8,11 @@
 void f_pall(stack_t **head, unsigned int counter)
 {
 	stack_t *temp;
+	(void)counter;
 
 	temp = *head;
 	if (temp == NULL)
-		return (0);
+		return;
 	while (temp)
 	{
 		printf("%d/n", temp->n);
