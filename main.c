@@ -1,5 +1,5 @@
 #include "monty.h"
-size_t getline (char **string, size_t *n, FILE *stream);
+size_t getline(char **string, size_t *n, FILE *stream);
 bus_t bus = {NULL, NULL, NULL, 0};
 /**
 * main - monty code interpreter

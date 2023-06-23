@@ -10,7 +10,7 @@ void addnode(stack_t **head, int n)
 	stack_t *new, *temp;
 
 	new = malloc(sizeof(stack_t));
-	if (new == NULL )
+	if (new == NULL)
 	{
 		printf("error");
 		exit(0);
