@@ -11,8 +11,8 @@ void addqueue(stack_t **head, int n)
 	new = malloc(sizeof(stack_t));
 	if (new == NULL)
 	{
-		printf("ERROR\n");
-		exit(0);
+		printf("Error: malloc failed");
+		exit(EXIT_FAILURE);
 	}
 	new->n = n;
 	new->next = NULL;
