@@ -52,7 +52,6 @@ typedef struct instruction_s
 	void (*f)(stack_t **stack, unsigned int line_number);
 } instruction_t;
 ssize_t getstdin(char **lineptr, int file);
-ssize_t getline(char **lineptr, ssize_t *n, FILE *stream);
 void f_push(stack_t **head, unsigned int number);
 void f_pall(stack_t **head, unsigned int number);
 void f_pint(stack_t **head, unsigned int number);
